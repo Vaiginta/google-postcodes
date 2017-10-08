@@ -1,0 +1,31 @@
+.app-root {
+    padding:20px;
+
+    .error {
+      color:red;
+    }
+}
+
+.search-results-table {
+    display:table;
+    margin-bottom:20px;
+}
+
+.search-results-row {
+    display:table-row;
+
+    &:first-child {
+        font-weight:bold;
+    }
+}
+
+.search-results-cell {
+    display:table-cell;
+    border:1px solid black;
+    padding:5px;
+    text-align:center;
+
+    &:first-child {
+        font-weight:bold;
+    }
+}
